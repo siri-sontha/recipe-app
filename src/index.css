@@ -1,4 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaldi:wght@400;700&display=swap');
+
+@import "tailwindcss";
 
 /* START - FONTS */
 
@@ -17,42 +20,69 @@
 
 /* END - FONTS */
 
-/* START - SIZES */
-
-/* 20 28 34 42 */
-
-/* END - SIZES */
-
-:root{
+:root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Inter", sans-serif;
+    --secondary-font: "Jaldi", sans-serif;
+
     --primary-color: white;
     --secondary-color: #25B49F;
+
+    --font-size-s: 1.111rem;
+    --font-size-m: 1.556rem;
+    --font-size-l: 1.889rem;
+    --font-size-xl: 2.333rem;
+
+    --spacing-xs: 0.5rem;
+    --spacing-s: 1rem;
+    --spacing-m: 1.5rem;
+    --spacing-l: 2rem;
+    --spacing-xl: 3rem;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+.bg-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
+.primary-font{
+    font-family: var(--primary-font);
+}
+
+.secondary-font{
+    font-family: var(--secondary-font);
+}
+
+
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 18px;
 }
 
 @media screen and (max-width: 62em) {
+
+    /*Tablets (768px to 992px)*/
     html {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 48em) {
+
+    /*Small Phones (576px to 768px)*/
     html {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 36em) {
+
+    /*XS Phones (360px to 576px)*/
     html {
         font-size: 12px;
     }
