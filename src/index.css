@@ -25,7 +25,9 @@
     --secondary-font: "Jaldi", sans-serif;
 
     --primary-color: white;
-    --secondary-color: #25B49F;
+    /* --secondary-color: #25B49F; */
+    --secondary-color: #622e1e;
+    /* --secondary-color: #6e3c2d; */
 
     --font-size-s: 1.111rem;
     --font-size-m: 1.556rem;
