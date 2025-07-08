@@ -47,17 +47,27 @@
     background-color: var(--secondary-color);
 }
 
-.primary-font{
+.font-primary{
     font-family: var(--primary-font);
 }
 
-.secondary-font{
+.font-secondary{
     font-family: var(--secondary-font);
 }
+
+.white-color{
+    color: var(--primary-color);
+}
+
+.teal-color{
+    color: var(--secondary-color);
+}
+
 
 
 * {
     box-sizing: border-box;
+    font-family: var(--primary-font);
 }
 
 html {
