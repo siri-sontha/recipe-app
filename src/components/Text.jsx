@@ -1,6 +1,7 @@
 export default function Text({className="", size = "md", text="input text", weight="normal"}){
 
 const sizes = {
+    xxs: "text-[0.5rem] sm:text-xs",
     xs: "text-xs sm:text-base",
     sm: "text-base sm:text-xl",
     md: "text-xl sm:text-3xl",
