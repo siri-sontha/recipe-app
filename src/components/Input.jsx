@@ -11,8 +11,8 @@ export default function Input({ className = "", size = "md", placeholder = "inpu
     return (
         <>
             <div className="relative">
-                <input className={`${className} ${sizes[size]} border-2 border-black shadow-lg shadow-neutral-400 py-3 pl-6 placeholder-black font-bold mx-2 rounded-full cursor-pointer hover:ring-1 hover:shadow-2xs hover:bg-[#fbc63f] focus:outline-none`} type="text" placeholder={placeholder} />
-                <img className="absolute right-6 bottom-4 w-6" src={search} alt="search" />
+                <input className={`${className} ${sizes[size]} border-2 border-black shadow-lg shadow-neutral-400 py-3 pl-10 placeholder-black font-bold mx-2 rounded-full cursor-pointer hover:ring-1 hover:shadow-2xs hover:bg-[#fbc63f] focus:outline-none`} type="text" placeholder={placeholder} />
+                <img className="absolute left-6 bottom-4 w-5" src={search} alt="search" />
             </div>
         </>
     )
