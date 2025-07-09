@@ -1,15 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Home from "./pages/Home.jsx";
 import './App.css';
 
-import Navbar from './components/Navbar.jsx';
-import SearchBar from './components/SearchBar.jsx';
-
 export default function App() {
-    
-    return(
-        <>
-            <Navbar />
-            <SearchBar />
-        </>
-    )
-
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
