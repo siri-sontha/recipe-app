@@ -20,10 +20,8 @@ import exp3 from "../assets/images/exp3.png";
 import exp4 from "../assets/images/exp4.png";
 
 export default function App() {
-
     return (
         <>
-
             <section className="pb-14">
 
                 <div className="flex flex-col gap-4 justify-center items-center">
@@ -62,6 +60,5 @@ export default function App() {
 
             </section>
         </>
-    )
-
-}
+    );
+};
