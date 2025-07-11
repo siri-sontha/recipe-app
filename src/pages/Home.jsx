@@ -49,7 +49,7 @@ export default function App() {
 
             <section className="">
 
-                <Text className="pb-14 pl-5 choco-color text-center" text="Swipe, Cook, Repeat - Because Good Food Fixes Everything" size="md" weight="bold" />
+                <Text className="pb-14 pl-5 choco-color text-center" text="Read, Cook, Repeat - Because Good Food Fixes Everything" size="md" weight="bold" />
 
                 <div className="pb-14 grid grid-cols-1 sm:grid-cols-2 gap-2 w-full max-w-6xl mx-auto justify-items-center">
                     <ExploreCard src={exp1} mainText="hostel hustlers" subText="Quick, filling vegetarian meals perfect for students & workaholics." />
